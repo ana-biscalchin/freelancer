@@ -1,3 +1,242 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  display: flex; 
+  justify-content: space-between;
+  height: auto;
+  font-family:"Lato" sans-serif; 
+}
+.nav {
+  display: inline-flex;
+  margin:10px;
+  justify-content: flex-end;
+}
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-color: black;
+  background-color: #2c3e50;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+  border-color: black;
+  background-color:#18bc9c;
+}
+body {
+  text-align: center;
+  background-color:white;
+  font-family: 'Lato', sans-serif;
+  color: #2c3e50;
+  font-size: 30px;  
+  line-height: 1.5;
+}
+h1 {
+  font-size: 4em;
+  font-style: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+.green {
+  height: auto;
+  padding: 5%;
+  background-color: #18bc9c ;
+  color:white;
+}
+.white{
+  height: auto;
+  padding: 5%;
+  background-color: white ;
+  color: #2c3e50;
+  text-align: center;
+}
+.grey {
+  align-content: center;
+  background:#2c3e50;
+  color: white;
+}
+.container_images {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+}
+.images_portifolio {
+  display: inline-flex;
+  padding: 20px;
+  width: 330px;
+  height: 239px;
+}
+.about   {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+}
+.about p {
+  text-align: left;
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 15px;
+  width: 380px;
+  font-size: 1.25rem;
+  margin-bottom: 5%;
+ }
+.btn {
+  box-sizing: content-box;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  background-color:rgba(0,0,0,0);
+  color: white;
+  font-size: 20px;
+} 
+.btn:hover{
+  box-sizing: content-box;
+  padding: 20px;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  background-color:white ;
+  color: black;
+}
+.grey div{
+  display: inline-block;
+  padding: 15px;
+  width: 380px;
+  height: 141px;
+  font-size: 20px;
+}
+.text_upercase{
+  text-transform: uppercase;
+}
+fieldset {
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: transparent;
+  border-color: transparent;
+  color: #2c3e50;
+  margin: 0px 390px;
+  text-align: left;
+}
+fieldset input {
+  margin: auto;
+  width: 100%;
+  box-sizing: content-box;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+fieldset textarea {
+  margin: auto;
+	width: 100%;
+	resize: none;
+	border: none;
+	border-bottom: 1px solid #e9ecef;
+  padding-bottom: 170px;
+  padding-left: 21px;
+  padding-top: 20px; 
+  font-family:"Lato"; 
+  font-size: 20px;  
+}
+.btn-submit {
+  box-sizing: content-box;
+  padding: 20px;
+  width: 60px;
+  height: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  background-color:  #18bc9c;
+  color: white;
+  font-size: 20px;
+} 
+.btn-submit:hover{
+  box-sizing: content-box;
+  padding: 20px;
+  width: 60px;
+  height: auto;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: white;
+  background-color:  #1a9c82;
+  font-size: 20px;
+}
+.information {
+  display: flex;
+  flex:  33%; 
+  justify-content: space-around;
+  padding: 5%;
+}
+.information div{
+  padding: 15px;
+  width: 380px;
+  font-size: 1.25rem;
+}
+#social { 
+  display: inline-flex;
+  text-align: center;
+}
+.item-social {
+  display: inline-block;
+  justify-content: space-between;
+  width: 30px;
+  height: auto;
+  margin:auto;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 20px;
+  align-items: center;
+}
+.line-star {
+  width: 300px;
+  height: 6px;
+  margin: 60px auto 100px auto;
+  position: relative;
+}
+.fa-star {
+  font-size: 40px;
+  position: absolute;
+  top:-18px;
+  right: 122px;
+}
+.line-white {
+  background-color: white;
+}
+.star-white { 
+  background-color: #18bc9c;
+  color: white;
+}
+.line-dark {
+  background-color: #2c3e50;
+}
+.star-dark { 
+  background-color: white;
+  color: #2c3e50;
+}
+footer{ 
+padding: 20px;
+background-color: #1a252f;
+color: white;
+font-size: 14px;
+height: 50px;
+}
